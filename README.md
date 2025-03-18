@@ -2,47 +2,6 @@
 
 A sleek, dynamic chat application built with Dart and Flutter that delivers a simple yet elegant user experience with a pastel color palette.
 
-from PIL import Image, ImageDraw, ImageFont
-
-# Define image dimensions and colors
-width, height = 800, 200
-background_color = (248, 240, 245)  # pastel pinkish
-text_color = (50, 50, 50)  # dark grey for contrast
-
-# Create a new image with a pastel background
-img = Image.new("RGB", (width, height), background_color)
-draw = ImageDraw.Draw(img)
-
-# Define the text and try to load a nicer font if available
-text = "Dynamic Chat App"
-try:
-    # You might need to have this font available in your system
-    font = ImageFont.truetype("arial.ttf", 48)
-except IOError:
-    font = ImageFont.load_default()
-
-# Calculate text width and height to center it
-text_width, text_height = draw.textsize(text, font=font)
-text_x = (width - text_width) / 2
-text_y = (height - text_height) / 2
-
-# Draw text with a slight shadow for a fancy effect
-shadow_color = (200, 200, 200)
-shadow_offset = 2
-draw.text((text_x + shadow_offset, text_y + shadow_offset), text, font=font, fill=shadow_color)
-draw.text((text_x, text_y), text, font=font, fill=text_color)
-
-# Optionally, add an underline or decorative line at the bottom
-line_y = height - 20
-draw.line((50, line_y, width - 50, line_y), fill=shadow_color, width=3)
-
-# Save the image
-img.save("app_banner.png")
-img.show()
-print("App banner generated and saved as 'app_banner.png'.")
-
-
-
 ## Table of Contents
 
 - [Overview](#overview)
