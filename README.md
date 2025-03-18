@@ -1,4 +1,5 @@
 # Dynamic Chat App
+<img src="https://github.com/user-attachments/assets/94e94df3-dbaa-438e-8112-13e2ea4a6524" alt="Alt Text" style="width:50%; height:auto;">
 
 ![Screenshot_1742301717](https://github.com/user-attachments/assets/94e94df3-dbaa-438e-8112-13e2ea4a6524)
 ![Screenshot_1742301697](https://github.com/user-attachments/assets/0d087559-333f-4926-9220-99721d4dbfef)
