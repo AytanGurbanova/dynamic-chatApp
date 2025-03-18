@@ -1,9 +1,8 @@
 # Dynamic Chat App
 <img src="https://github.com/user-attachments/assets/94e94df3-dbaa-438e-8112-13e2ea4a6524" alt="Alt Text" style="width:50%; height:auto;">
+<img src="https://github.com/user-attachments/assets/0d087559-333f-4926-9220-99721d4dbfef" alt="Alt Text" style="width:50%; height:auto;">
+<img src="https://github.com/user-attachments/assets/9c3de535-31db-4ba7-b55f-979fac0c3601" alt="Alt Text" style="width:50%; height:auto;">
 
-![Screenshot_1742301717](https://github.com/user-attachments/assets/94e94df3-dbaa-438e-8112-13e2ea4a6524)
-![Screenshot_1742301697](https://github.com/user-attachments/assets/0d087559-333f-4926-9220-99721d4dbfef)
-![Screenshot_1742301809](https://github.com/user-attachments/assets/9c3de535-31db-4ba7-b55f-979fac0c3601)
 
 A sleek, dynamic chat application built with Dart and Flutter that delivers a simple yet elegant user experience with a pastel color palette.
 
