@@ -1,6 +1,6 @@
 # Dynamic Chat App
 
-A sleek, dynamic chat application built with Dart and Flutter that delivers a simple yet elegant user experience with a pastel color palette.
+A sleek, dynamic chat application built with Dart and Flutter that delivers a simple yet elegant user experience.
 
 <div>
   <img src="https://github.com/user-attachments/assets/94e94df3-dbaa-438e-8112-13e2ea4a6524" alt="Image 1" width="30%">
