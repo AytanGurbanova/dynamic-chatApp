@@ -1,13 +1,17 @@
 # Dynamic Chat App
 
+![Screenshot_1742301717](https://github.com/user-attachments/assets/94e94df3-dbaa-438e-8112-13e2ea4a6524)
+![Screenshot_1742301697](https://github.com/user-attachments/assets/0d087559-333f-4926-9220-99721d4dbfef)
+![Screenshot_1742301809](https://github.com/user-attachments/assets/9c3de535-31db-4ba7-b55f-979fac0c3601)
+
 A sleek, dynamic chat application built with Dart and Flutter that delivers a simple yet elegant user experience with a pastel color palette.
 
 ## Table of Contents
 
 - [Overview](#overview)
 - [Features](#features)
-- [Installation](#installation)
 - [Technologies Used](#technologies-used)
+- [Installation](#installation)
 - [Push Notifications](#push-notifications)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -34,6 +38,23 @@ Dynamic Chat App is designed to provide users with a seamless chatting experienc
 - **Push Notifications:**  
   - Stay updated with real-time push notifications for new messages.
 
+## Technologies Used
+
+- **Dart & Flutter:** The backbone of the dynamic UI and smooth interactions.
+- **Firebase CLI & SDK:**  
+  - **Authentication:** Secure login and signup process.  
+  - **Firebase Firestorage:** Efficient data management and storage solutions.  
+  - **Push Notifications:** For real-time message alerts.
+- **Modern UI/UX:**  
+  - Pastel color themes and minimalist design for a clean, modern look.
+
+## Push Notifications
+
+The app integrates push notifications to ensure users never miss an update:
+- Configured using Firebase Cloud Messaging (FCM).
+- Alerts users instantly when a new message is received.
+
+
 ## Installation
 
 1. **Clone the Repository:**
@@ -56,22 +77,6 @@ Dynamic Chat App is designed to provide users with a seamless chatting experienc
    ```bash
    flutter run
    ```
-
-## Technologies Used
-
-- **Dart & Flutter:** The backbone of the dynamic UI and smooth interactions.
-- **Firebase CLI & SDK:**  
-  - **Authentication:** Secure login and signup process.  
-  - **Firebase Firestorage:** Efficient data management and storage solutions.  
-  - **Push Notifications:** For real-time message alerts.
-- **Modern UI/UX:**  
-  - Pastel color themes and minimalist design for a clean, modern look.
-
-## Push Notifications
-
-The app integrates push notifications to ensure users never miss an update:
-- Configured using Firebase Cloud Messaging (FCM).
-- Alerts users instantly when a new message is received.
 
 ## Usage
 
